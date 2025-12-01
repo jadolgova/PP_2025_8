@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c7f8b29-b3f7-468e-830a-94e7a5ddd11a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/static.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/UP_2025_1 — копия.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/Group 2-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/Group 2-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/Group 2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/babushka-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/babushka-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/babushka.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/banner-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/banner-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/banner.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/calend-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/calend-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/calend.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/cart-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/cart-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/cart.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/cat1-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/cat1-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/cat1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chashk-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chashk-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chashk.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chashka-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chashka-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chashka.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chayn-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chayn-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chayn.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chaynZ-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chaynZ-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/chaynZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/d-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/d-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/d.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/filt-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/filt-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/filt.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/fon-contact-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/fon-contact-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/fon-contact.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/hTatar-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/hTatar-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/hTatar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/j-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/j-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/j.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/k-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/k-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/k.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/kaktuz-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/kaktuz-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/kaktuz.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/khig-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/khig-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/khig.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/knigZ-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/knigZ-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/knigZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/kniga-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/kniga-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/kniga.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/lasang-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/lasang-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/lasang.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/list-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/list-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/list-white-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/list-white-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/list-white.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/list.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/listZ-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/listZ-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/listZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/local-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/local-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/local.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/localZ-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/localZ-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/localZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/medal-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/medal-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/medal.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/medalZ-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/medalZ-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/medalZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/one-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/one-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/one.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/plant-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/plant-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/plant.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/prChay-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/prChay-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/prChay.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/priroda-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/priroda-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/priroda.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/sagan-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/sagan-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/sagan.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serd-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serd-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serd.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serdZ-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serdZ-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serdZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serdce-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serdce-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/serdce.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/shapka-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/shapka-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/shapka.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/shapkaZ-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/shapkaZ-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/shapkaZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatar-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatar-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatarCh-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatarCh-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatarCh.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatarSt-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatarSt-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/tatarSt.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/vishn-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/vishn-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/vishn.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zdan-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zdan-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zdan.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zdanie-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zdanie-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zdanie.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zeml-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zeml-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/zeml.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей 2-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей 2-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей 2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей3-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей3-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей4-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей4-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей5-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей5-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музей5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музейё-lg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музейё-sm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/images/музейё.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/informacia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/carta/image 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_cart-tov.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_cartpreim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_nomer-str.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_otz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_perehod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Group 2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/babushka.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/banner.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/calend.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cart.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chashk.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chashka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chayn.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chaynZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/d.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/filt.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/fon-contact.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hTatar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/j.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/k.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kaktuz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/khig.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/knigZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kniga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/lasang.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/list-white.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/listZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/local.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/localZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/medal.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/medalZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/one.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/plant.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/prChay.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/priroda.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sagan.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/serd.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/serdZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/serdce.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shapka.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shapkaZ.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tatar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tatarCh.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tatarSt.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/vishn.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/zdan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/zdanie.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/zeml.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/музей 2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/музей3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/музей4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/музей5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/музейё.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/informacia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/base/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/base/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_cart-tov.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_cartpreim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_nomer-str.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_otz.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_perehod.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/utils/_variables.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jadolgova"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jadolgova/PP_2025_8.git",
+    "accountId": "f0b4637a-cfec-4c04-aa30-52b5616b09f6"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="36EwwtalS1v0eOmBDl0uktuJcMh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.scopes",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c7f8b29-b3f7-468e-830a-94e7a5ddd11a" name="Changes" comment="" />
+      <created>1764585280795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764585280795</updated>
+      <workItem from="1764585281928" duration="426000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Practika</title>
+</head>
+<body>
+
+@@include('_header.html')
+<section class="banner">
+    <div class="container">
+        <div class="text_banner">
+            <h1>Музей чая "Кипрей"</h1>
+            <p>Аромат истории в каждой заварке</p>
+        </div>
+        <div class="btn_banner">
+            @@include('./_button.html', {
+            "title": "Посетить музей",
+            "border": "none",
+            "color_text": "#F9F4E2",
+            "background": "#8B9467",
+            })
+        </div>
+    </div>
+</section>
+<section class="inform-muz">
+    <div class="container">
+        <h2>О музее</h2>
+        <div class="opis">
+            <img class="muz-iz" src="./assets/images/zdanie.webp" height="500" width="500" alt="Здание музея"/>
+            <div class="opis-text">
+                <p>
+                    Основанный в 1923 году как чайная лавка купца Петра Кипрея, наш музей хранит вековые традиции русского чаепития. После возрождения коллекции в 1998 году внуком основателя, мы превратились в современное культурное пространство.
+                </p>
+                <div class="btn-inf">
+                    @@include('./_button.html',{
+                    "title": "Подробнее",
+                    "border": "none",
+                    "color_text": "#F9F4E2",
+                    "background": "#8B9467",
+                    })
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="preim1">
+    <div class="container">
+        <h2 class="blpreim">Преимущества</h2>
+        <div class="preim">
+            @@include('./_cartpreim.html', {
+            "icon": '<img src="./assets/images/listZ.webp" class="icon-light" height="80" width="78" alt="Лист"/><img src="./assets/images/list-white.webp" class="icon-dark" height="80" width="78" alt="Лист"/>',
+            "text": 'Уникальные экспонаты XIX–XX веков'
+            })
+            @@include('./_cartpreim.html', {
+            "icon": '<img src="./assets/images/chashk.webp" height="80" width="85" alt="Чашка"/>',
+            "text": 'Интерактивные чайные <br> церемонии'
+            })
+            @@include('./_cartpreim.html', {
+            "icon": '<img src="./assets/images/knigZ.webp" height="80" width="70" alt="Книга"/>',
+            "text": 'Образовательная программа для детей'
+            })
+        </div>
+    </div>
+</section>
+<section class="otzv">
+    <div class="container">
+        <h2 class="blpreim">Отзывы</h2>
+        @@include('./_otz.html', {
+        "name": 'Николай Андреев',
+        "star": '⭐⭐⭐⭐⭐',
+        "date": '03.11.2024',
+        "text": 'Пришёл просто из любопытства, а ушёл с новыми знаниями и парой любимых сортов чая. Особенно впечатлило, как бережно хранят традиции — от заваривания до рассказов о каждом сорте. Обязательно вернусь с семьёй'
+        })
+        @@include('./_otz.html', {
+        "name": 'Ольга Кузнецова ',
+        "star": '⭐⭐⭐⭐',
+        "date": '01.12.2023',
+        "text": 'Чай здесь — как путешествие во времени. Мягкий, насыщенный, с нотками мёда и трав. После чаепития осталось ощущение тепла и уюта, будто побывала в гостях у бабушки. Теперь это мой любимый музей!'
+        })
+        @@include('./_otz.html', {
+        "name": 'Анастасия Голубева',
+        "star": '⭐⭐⭐⭐⭐',
+        "date": '21.01.2025',
+        "text": 'Посетила музей и попробовала чай по рецепту 1920‑х — вкус невероятный! Никогда не думала, что чай может так раскрывать историю. Теперь понимаю, почему наши предки ценили эти моменты за самоваром'
+        })
+        <div class="btn-otz">
+            @@include('./_button.html',{
+            "title": "Написать отзыв",
+            "border": "none",
+            "color_text": "#F9F4E2",
+            "font-weight": "",
+            "background": "#8B9467",
+            })
+        </div>
+    </div>
+</section>
+<div class="container">
+    <h2 class="blpreim">Наш ассортимент</h2>
+    <div class="products">
+        @@include('./_cart-tov.html', {
+        "img": '<img src="./assets/images/one.webp" height="474" width="396" alt="Черный цейлонский чай"/>',
+        "name": "Черный цейлонский чай <b>Сокровища музея</b>",
+        "price": "400₽",
+        "buttonText": "Купить"
+        })
+        @@include('./_cart-tov.html', {
+        "img": '<img src="./assets/images/sagan.webp" height="474" width="396" alt="Травяной чай"/>',
+        "name": "Травяной чай <b>Саган Дайля</b>",
+        "price": "600₽",
+        "buttonText": "Купить"
+        })
+        @@include('./_cart-tov.html', {
+        "img": '<img src="./assets/images/tatar.webp" height="474" width="396" alt="Черный индийский чай"/>',
+        "name": "Черный индийский чай <b>Сады Татарстана</b>",
+        "price": "450₽",
+        "buttonText": "Купить"
+        })
+    </div>
+</div>
+
+<section class="CTA-block">
+    <div class="cal-block">
+        <div class="osnInf">
+            <p class="prizivGl">Испытайте чайную историю на себе</p>
+            <p class="priziv">Приглашаем вас на увлекательную экскурсию с дегустацией. Погрузитесь в <br> мир иван-чая, узнайте его секреты и ощутите вкус традиций.</p>
+            <div class="btnPr">
+                @@include('./_button.html',{
+                "border-radius": "10px",
+                "title": "Записаться на экскурсию",
+                "border": "none",
+                "color_text": "#F9F4E2",
+                "font-weight": "",
+                "background": "#C94C43",
+                })
+            </div>
+        </div>
+        <div class="calendar">
+            <img src="./assets/images/calend.webp" height="204" width="425" alt="Календарь"/>
+        </div>
+    </div>
+</section>
+
+@@include('./_footer.html')
+</body>
+</html>
