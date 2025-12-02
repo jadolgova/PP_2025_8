@@ -60,7 +60,9 @@ h1{
   text-align: center;
 }
 h2{
-
+  font-size: 28px;
+  font-family: 'Averta', sans-serif;
+  color: #363348;
 }
 body {
   .pers-inf{
@@ -205,5 +207,14 @@ body {
   .cards{
     display: flex;
     justify-content: space-between;
+  }
+  .inf-work{
+    text-align: center;
+    font-size: 24px;
+    color: #363348;
+    p {
+      padding: 1.5em;
+      line-height: 1.6em;
+    }
   }
 }
