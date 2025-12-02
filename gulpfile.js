@@ -107,5 +107,3 @@ export const serve = () => {
 // Сборка
 export const build = gulp.series(clean, gulp.parallel(styles, html, assets, imagesToWebp, imagesToMobileWebp));
 export default gulp.series(build, serve);
-
-
