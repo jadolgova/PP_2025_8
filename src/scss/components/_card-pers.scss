@@ -1,0 +1,26 @@
+.card-pers{
+  width: 420px;
+  height: 450px;
+  border: #363348 1px solid;
+  box-shadow: 0 0 15px rgba(54, 51, 72, 0.2);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 50px;
+  text-align: center;
+
+  .year{
+    color: #363348;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    width: 100%;
+  }
+
+  .inf-year{
+    color: #363348;
+    font-size: 22px;
+    line-height: 1.4;
+    width: 100%;
+  }
+}
