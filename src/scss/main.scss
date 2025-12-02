@@ -13,6 +13,14 @@
 @use 'components/button';
 @use 'components/card';
 
+//@font-face {
+//  font-family: 'Anticva';
+//  src: url('dist/assets/fonts/');
+//}
 body {
-  background-color: var(--main-color);
+
+}
+container{
+  max-width: 1366px;
+  justify-content: center;
 }
