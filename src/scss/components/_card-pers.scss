@@ -1,4 +1,4 @@
-.card-pers{
+.card-pers {
   width: 420px;
   height: 450px;
   border: #363348 1px solid;
@@ -8,8 +8,9 @@
   box-sizing: border-box;
   padding: 50px;
   text-align: center;
+  margin: 0 auto;
 
-  .year{
+  .year {
     color: #363348;
     font-size: 32px;
     font-weight: bold;
@@ -17,10 +18,90 @@
     width: 100%;
   }
 
-  .inf-year{
+  .inf-year {
     color: #363348;
     font-size: 22px;
     line-height: 1.4;
     width: 100%;
+  }
+
+  @media (max-width: 1200px) {
+    width: 380px;
+    height: 410px;
+    padding: 45px;
+
+    .year {
+      font-size: 30px;
+      margin-bottom: 50px;
+    }
+
+    .inf-year {
+      font-size: 21px;
+      line-height: 1.35;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    width: 350px;
+    height: 380px;
+    padding: 40px;
+
+    .year {
+      font-size: 30px;
+      margin-bottom: 45px;
+    }
+
+    .inf-year {
+      font-size: 21px;
+      line-height: 1.3;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 380px;
+    height: 360px;
+    padding: 35px;
+
+    .year {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    .inf-year {
+      font-size: 20px;
+      line-height: 1.3;
+    }
+  }
+
+  @media (max-width: 480px) {
+    width: 320px;
+    height: 340px;
+    padding: 25px;
+
+    .year {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .inf-year {
+      font-size: 20px;
+      line-height: 1.25;
+    }
+  }
+
+  @media (max-width: 360px) {
+    width: 280px;
+    height: 320px;
+    padding: 20px;
+
+    .year {
+      font-size: 26px;
+      margin-bottom: 25px;
+    }
+
+    .inf-year {
+      font-size: 18px;
+      line-height: 1.2;
+    }
   }
 }
