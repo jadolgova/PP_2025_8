@@ -13,14 +13,24 @@
 @use 'components/button';
 @use 'components/card';
 
-//@font-face {
-//  font-family: 'Anticva';
-//  src: url('dist/assets/fonts/');
-//}
-body {
-
+@font-face {
+  font-family: 'Anticva';
+  src: url('dist/assets/fonts/ofont.ru_Anticva.ttf');
+}
+@font-face {
+  font-family: 'Averta';
+  src: url('dist/assets/fonts/Averta.ttf');
 }
 container{
   max-width: 1366px;
   justify-content: center;
+}
+h1{
+  font-family: 'Anticva', sans-serif;
+  font-size: 32px;
+  justify-content: center;
+  text-align: center;
+}
+body {
+
 }
