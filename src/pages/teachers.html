@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <title>Document</title>
+</head>
+<body>
+
+@@include('_transition.html', {
+"title": "Главная",
+"title-two": "ДЛЯ УЧИТЕЛЕЙ"})
+@@include('_header.html')
+<div class="container">
+  <h1>МАЯК ДЛЯ РОДИТЕЛЕЙ</h1>
+  <p class="stud-inf">Ваш ребёнок смело исследует мир с собственным «Фонариком». А для вас, его главных проводников и защитников, мы зажгли надёжный Маяк. В этом разделе — проверенные ориентиры, практичные советы и памятки, которые помогут вам быть опорой в любую погоду, сохранять спокойствие и находить радость в совместном путешествии по волнам взросления.</p>
+</div>
+<div class="container">
+  <div class="cards-pam">
+    @@include('_memo.html', {
+    "title": "",
+    "icon": '<img src="./assets/images/травля.webp" alt="">',
+    })
+    @@include('_memo.html', {
+    "title": "",
+    "icon": '<img src="./assets/images/травля1.webp" alt="">',
+    })
+  </div>
+</div>
+</body>
+</html>
