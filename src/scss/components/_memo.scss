@@ -1,0 +1,142 @@
+.memo {
+  display: flex;
+  padding: 3vh;
+  justify-content: center;
+  align-items: center;
+  border: #363348 1px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  img {
+    height: 420px;
+  }
+
+  .img {
+    display: block;
+    justify-content: space-between;
+  }
+}
+
+// Постепенное уменьшение для разных экранов
+@media (max-width: 1400px) {
+  .memo {
+    img {
+      height: 380px;
+    }
+
+    p {
+      font-size: 19px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .memo {
+    padding: 2.8vh;
+
+    img {
+      height: 350px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .memo {
+    padding: 2.5vh;
+
+    img {
+      height: 300px;
+    }
+
+    p {
+      font-size: 17px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .memo {
+    padding: 2vh;
+
+    img {
+      height: 200px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .memo {
+    padding: 1.8vh;
+
+    img {
+      height: 150px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .memo {
+    padding: 1.5vh;
+    min-width: 100px;
+
+    img {
+      height: 120px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .memo {
+    padding: 1.2vh;
+    min-width: 100px;
+
+    img {
+      height: 110px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .memo {
+    padding: 1vh;
+    min-width: 100px;
+
+    img {
+      height: 110px;
+    }
+
+    p {
+      font-size: 11px;
+    }
+  }
+}
+
+.memo:hover{
+  transform: scale(1.15);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}

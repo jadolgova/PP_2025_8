@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+</head>
+<body>
+@@include('_transition.html', {
+"title": "Главная",
+"title-two": "ДОСТИЖЕНИЯ"})
+@@include('_header.html')
+<div class="container">
+    <h1>МОИ ДОСТИЖЕНИЯ</h1>
+    <p class="stud-inf">В этом блоке собраны официальные документы, которые являются подтверждением моих профессиональных успехов. Каждая награда или диплом — не только предмет гордости, но и независимая оценка вклада в проекты, подтверждение освоенных компетенций и свидетельство активного участия в профессиональной жизни отрасли.</p>
+</div>
+<div class="container">
+    <h2>Профессиональное развитие</h2>
+    <div class="simple-slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="./assets/images/dost1.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/dost2.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/dost3.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/dost4.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/dost5.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/dost6.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/dost7.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/dost8.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/dost9.webp" alt="">
+            </div>
+        </div>
+
+        <button class="slider-btn prev" onclick="prevSlide()">❮</button>
+        <button class="slider-btn next" onclick="nextSlide()">❯</button>
+    </div>
+    <h2>Образование</h2>
+    <div class="diploma-slider">
+    <div class="diploma-slides">
+        <div class="diploma-slide active">
+            <img src="./assets/images/диплом.webp" alt="">
+        </div>
+        <div class="diploma-slide">
+            <img src="./assets/images/диплом1.webp" alt="">
+        </div>
+        <div class="diploma-slide">
+            <img src="./assets/images/диплом2.webp" alt="">
+        </div>
+    </div>
+
+    <button class="diploma-slider-btn diploma-prev" onclick="prevDiplomaSlide()">❮</button>
+    <button class="diploma-slider-btn diploma-next" onclick="nextDiplomaSlide()">❯</button>
+</div>
+</div>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlide(index) {
+        // Скрываем все слайды
+        slides.forEach(slide => slide.classList.remove('active'));
+
+        // Показываем нужный слайд
+        slides[index].classList.add('active');
+        currentSlide = index;
+    }
+
+    function nextSlide() {
+        let next = currentSlide + 1;
+        if (next >= slides.length) next = 0;
+        showSlide(next);
+    }
+
+    function prevSlide() {
+        let prev = currentSlide - 1;
+        if (prev < 0) prev = slides.length - 1;
+        showSlide(prev);
+    }
+
+    // Автопрокрутка
+    setInterval(nextSlide, 3000);
+    // JavaScript для второго слайдера (дипломы)
+    let currentDiplomaSlide = 0;
+    const diplomaSlides = document.querySelectorAll('.diploma-slider .diploma-slide');
+
+    function showDiplomaSlide(index) {
+        diplomaSlides.forEach(slide => slide.classList.remove('active'));
+        diplomaSlides[index].classList.add('active');
+        currentDiplomaSlide = index;
+    }
+
+    function nextDiplomaSlide() {
+        let next = currentDiplomaSlide + 1;
+        if (next >= diplomaSlides.length) next = 0;
+        showDiplomaSlide(next);
+    }
+
+    function prevDiplomaSlide() {
+        let prev = currentDiplomaSlide - 1;
+        if (prev < 0) prev = diplomaSlides.length - 1;
+        showDiplomaSlide(prev);
+    }
+
+    // Автопрокрутка для второго слайдера
+    setInterval(nextDiplomaSlide, 3000);
+</script>
