@@ -6,6 +6,7 @@
   border: #363348 1px solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 
   p {
     font-size: 20px;
@@ -22,7 +23,6 @@
   }
 }
 
-// Постепенное уменьшение для разных экранов
 @media (max-width: 1400px) {
   .memo {
     img {
