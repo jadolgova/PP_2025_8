@@ -71,7 +71,8 @@
     <button class="diploma-slider-btn diploma-next" onclick="nextDiplomaSlide()">❯</button>
 </div>
 </div>
-
+@@include('_footer.html')
+</body>
 <script>
     let currentSlide = 0;
     const slides = document.querySelectorAll('.slide');
@@ -124,3 +125,4 @@
     // Автопрокрутка для второго слайдера
     setInterval(nextDiplomaSlide, 3000);
 </script>
+</html>

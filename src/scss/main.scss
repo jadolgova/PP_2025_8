@@ -19,6 +19,7 @@
 @use 'components/memo';
 @use 'components/memo-two';
 @use 'components/card-sob';
+@use 'components/footer';
 
 @font-face {
   font-family: 'Anticva';
@@ -771,21 +772,31 @@ body {
     }
   }
   .documents1 {
-      color: #363348;
-      font-size: 20px;
-      text-align: center;
+    color: #363348;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
 
-      @media (max-width: 1200px) {
-        font-size: 18px;
+    a {
+      text-decoration: none;
+      color: #363348;
+
+      &:hover {
+        text-decoration: underline;
       }
-      @media (max-width: 768px) {
-        font-size: 16px;
-      }
-      @media (max-width: 480px) {
-        font-size: 14px;
-      }
-      @media (max-width: 360px) {
-        font-size: 12px;
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+    @media (max-width: 480px) {
+      font-size: 14px;
+    }
+    @media (max-width: 360px) {
+      font-size: 12px;
     }
   }
 }
