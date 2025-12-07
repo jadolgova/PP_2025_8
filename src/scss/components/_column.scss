@@ -1,0 +1,105 @@
+.colmn{
+  margin: 10px auto;
+  width: 300px;
+  height: 300px;
+  border: #363348 1px solid;
+  box-shadow: 0 0 15px rgba(54, 51, 72, 0.2);
+  padding: 5vh;
+  .svg{
+    margin-left: 130px;
+    margin-bottom: 30px;
+  }
+  .date-colmn{
+    font-size: 22px;
+    font-weight: bold;
+    color: #363348;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sob-one {
+    font-size: 20px;
+    color: #363348;
+    text-align: center;
+  }
+  .sob-two{
+    font-size: 20px;
+    color: #363348;
+    text-align: center;
+  }
+  @media (max-width: 1400px) {
+    width: 280px;
+    height: auto;
+    padding: 4vh;
+    .date-colmn{
+      font-size: 22px;
+    }
+    .svg{
+      margin-left: 130px;
+      margin-bottom: 30px;
+    }
+    .sob-one {
+      font-size: 20px;
+    }
+    .sob-two{
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    width: 250px;
+    .date-colmn{
+      font-size: 20px;
+    }
+    .svg{
+      margin-left: 110px;
+      margin-bottom: 25px;
+    }
+    .sob-one {
+      font-size: 18px;
+    }
+    .sob-two{
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    width: 240px;
+    padding: 3vh;
+    .date-colmn{
+      font-size: 18px;
+    }
+    .svg{
+      margin-left: 90px;
+      margin-bottom: 20px;
+    }
+    .sob-one {
+      font-size: 16px;
+    }
+    .sob-two{
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    width: 230px;
+    padding: 2vh;
+    .date-colmn{
+      font-size: 16px;
+    }
+    .svg{
+      margin-left: 80px;
+      margin-bottom: 10px;
+    }
+    .sob-one {
+      font-size: 14px;
+    }
+    .sob-two{
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    width: 180px;
+    padding: 2vh;
+  }
+}
