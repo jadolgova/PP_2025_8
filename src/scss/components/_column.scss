@@ -1,13 +1,13 @@
 .colmn{
   margin: 10px auto;
   width: 300px;
-  height: 300px;
+  height: 250px;
   border: #363348 1px solid;
   box-shadow: 0 0 15px rgba(54, 51, 72, 0.2);
   padding: 5vh;
   .svg{
-    margin-left: 130px;
-    margin-bottom: 30px;
+    display: block;
+    margin: auto auto 25px auto;
   }
   .date-colmn{
     font-size: 22px;
@@ -34,8 +34,7 @@
       font-size: 22px;
     }
     .svg{
-      margin-left: 130px;
-      margin-bottom: 30px;
+      margin: auto auto 20px auto;
     }
     .sob-one {
       font-size: 20px;
@@ -50,10 +49,7 @@
     .date-colmn{
       font-size: 20px;
     }
-    .svg{
-      margin-left: 110px;
-      margin-bottom: 25px;
-    }
+
     .sob-one {
       font-size: 18px;
     }
@@ -69,8 +65,7 @@
       font-size: 18px;
     }
     .svg{
-      margin-left: 90px;
-      margin-bottom: 20px;
+      margin: auto auto 15px auto;
     }
     .sob-one {
       font-size: 16px;
@@ -87,8 +82,7 @@
       font-size: 16px;
     }
     .svg{
-      margin-left: 80px;
-      margin-bottom: 10px;
+      margin: auto auto 10px auto;
     }
     .sob-one {
       font-size: 14px;

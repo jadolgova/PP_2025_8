@@ -10,6 +10,14 @@
   box-sizing: border-box;
   transition: transform 0.3s;
   //margin: 10px;
+  a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #363348;
+    margin-bottom: 15px;
+    word-break: break-word;
+    cursor: pointer;
+  }
 }
 
 .img {
@@ -27,7 +35,7 @@
   cursor: pointer;
 }
 
-.title-card:hover {
+a:hover {
   color: #ddd;
 }
 
