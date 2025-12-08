@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+</head>
+<body>
+@@include('_transition.html', {
+"title": "Главная",
+"title-two": "АКЦИЯ «ВЕРНИ ГЕРОЮ ИМЯ»"})
+@@include('_header.html')
+<div class="container">
+    <h2><a class="blog-btn" href="blog.html">БЛОГ</a></h2>
+</div>
+<div class="container">
+    <h1>Акция «Верни герою имя»</h1>
+    @@include('_card-event.html', {
+    "title-event": "В чём польза данного мероприятия?",
+    "text-event": "Суть акции заключается в том, что учащиеся через реальный труд (уборку территории, очистку памятных плит) отдают дань уважения павшим защитникам Отечества, поддерживая связь поколений.",})
+    <p class="event-inf">07.10.2025 г. обучающиеся нашей школы приняли активное участие в акции "Верни герою имя". Каждый очищенный угол - это символ нашей памяти, которая живет в сердцах молодого поколения.</p>
+    <div class="foto-event">
+        <img class="img-event" src="./assets/images/ВЕРНИ-ГЕРОЮ.webp">
+        <img class="img-event" src="./assets/images/ВЕРНИ-ГЕРОЮ1.webp">
+    </div>
+</div>
+@@include('_footer.html')
+</body>
