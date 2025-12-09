@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <title>Document</title>
+</head>
+<body>
+@@include('_transition.html', {
+"title": "Главная",
+"title-two": "«РЕМЕНЬ БЕЗОПАСНОСТИ»"})
+@@include('_header.html')
+<div class="container">
+  <h2><a class="blog-btn" href="blog.html">БЛОГ</a></h2>
+</div>
+<div class="container">
+  <h1>Разработка буклетов в рамках мероприятия «Ремень безопасности»</h1>
+  @@include('_card-event.html', {
+  "title-event": "В чём польза данного мероприятия?",
+  "text-event": "Это творческий процесс, превращающий сухие правила дорожной безопасности в яркие и запоминающиеся визуальные образы. Суть в том, чтобы через совместную разработку буклетов участники глубоко осознали и пропустили через себя жизненно важную информацию. Конечная цель — создать не просто раздаточный материал, а личный призыв, который заставит водителей и пассажиров всегда пристёгиваться.",})
+  <p class="event-inf">19.02.2025 г. в целях снижения уровня дорожно-транспортного травматизма ЮИД нашей школы разработали и раздали буклеты с призывом «Пристегнись! Сбереги свою жизнь!»</p>
+  <div class="foto-event">
+    <img class="img-event" src="./assets/images/буклеты.webp">
+    <img class="img-event" src="./assets/images/б.webp">
+  </div>
+</div>
+@@include('_footer.html')
+</body>

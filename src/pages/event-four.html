@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+</head>
+<body>
+@@include('_transition.html', {
+"title": "Главная",
+"title-two": "ПРОЕКТ «СПОРТ БЕЗ ГРАНИЦ»"})
+@@include('_header.html')
+<div class="container">
+    <h2><a class="blog-btn" href="blog.html">БЛОГ</a></h2>
+</div>
+<div class="container">
+    <h1>Проект «Спорт без границ»</h1>
+    @@include('_card-event.html', {
+    "title-event": "В чём польза данного мероприятия?",
+    "text-event": "Суть мероприятия превратить физическую активность в яркий эмоциональный праздник, доступный для каждого ребёнка. Мероприятие через игру и смех раскрывает идею проекта «Спорт без границ»: что спорт — это прежде всего общение, радость и личный успех, измеряемый улыбками, а не секундами. Это практическое воплощение идеи, что настоящие соревнования объединяют, а не разделяют.",})
+    <p class="event-inf">18.09.2025 г. в рамках реализации школьного проекта "Спорт без границ" прошли "веселые старты" среди 1-4 классов. На спортивной площадке царили смех, шум и веселье!</p>
+    <div class="foto-event">
+        <img class="img-event" src="./assets/images/спорт.webp">
+        <img class="img-event" src="./assets/images/спорт1.webp">
+    </div>
+</div>
+@@include('_footer.html')
+</body>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+</head>
+<body>
+@@include('_transition.html', {
+"title": "Главная",
+"title-two": "«ДЕНЬ БОРЬБЫ СО СПИДОМ»"})
+@@include('_header.html')
+<div class="container">
+    <h2><a class="blog-btn" href="blog.html">БЛОГ</a></h2>
+</div>
+<div class="container">
+    <h1>Акция «День борьбы со СПИДом»</h1>
+    @@include('_card-event.html', {
+    "title-event": "В чём польза данного мероприятия?",
+    "text-event": "Суть акции — перевести глобальную проблему в личную плоскость, напомнив каждому, что его осведомлённость и действия имеют значение. Это день, когда скорбь о потерянных жизнях соединяется с решимостью предотвратить новые заражения через открытое информирование. Главный посыл — борьба со СПИДом начинается не в лаборатории, а в голове каждого человека, который делает выбор в пользу безопасного поведения и толерантности.",})
+    <p class="event-inf">01.12.2025 г. ребята приняли участие в акции «День борьбы с синдромом приобретенного иммунного дефицита». Символом борьбы со СПИДом является красная ленточка.</p>
+    <div class="foto-event">
+        <img class="img-event" src="./assets/images/спид.webp">
+        <img class="img-event" src="./assets/images/спид1.webp">
+    </div>
+</div>
+@@include('_footer.html')
+</body>
