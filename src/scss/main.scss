@@ -828,6 +828,36 @@ body {
       }
     }
   }
+  .documents2 {
+    color: #363348;
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+
+    a {
+      text-decoration: none;
+      color: #363348;
+
+      &:hover {
+        text-decoration: underline;
+        font-weight: bold;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+    @media (max-width: 480px) {
+      font-size: 14px;
+    }
+    @media (max-width: 360px) {
+      font-size: 12px;
+    }
+  }
   .documents1 {
     color: #363348;
     font-size: 20px;
@@ -841,6 +871,7 @@ body {
 
       &:hover {
         text-decoration: underline;
+        font-weight: bold;
       }
     }
 
