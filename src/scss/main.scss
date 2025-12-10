@@ -802,7 +802,7 @@ body {
   }
   .documents {
     a {
-      display: inline-block;
+      display: block;
       width: 100%; /* Занимает всю ширину, перенося на новую строку */
       text-decoration: none;
       color: #363348;
@@ -812,19 +812,24 @@ body {
       margin: 15px 0;
 
       &:hover {
-        color: #D9D9D9;
+        text-decoration: underline;
+        font-weight: bold;
       }
       @media (max-width: 1200px) {
         font-size: 18px;
+        margin: 10px 0;
       }
       @media (max-width: 768px) {
         font-size: 17px;
+        margin: 8px 0;
       }
       @media (max-width: 480px) {
         font-size: 16px;
+        margin: 5px 0;
       }
       @media (max-width: 360px) {
         font-size: 14px;
+        margin: 3px 0;
       }
     }
   }
@@ -933,6 +938,28 @@ body {
     @media (max-width: 400px) {
       margin-top: 15px;
       height: 200px;
+    }
+
+    @media (max-width: 320px) {
+      margin-top: 10px;
+    }
+  }
+  .docs1{
+    margin-top: 35px;
+    @media (max-width: 1100px) {
+      margin-top: 30px;
+    }
+
+    @media (max-width: 900px) {
+      margin-top: 25px;
+    }
+
+    @media (max-width: 600px) {
+      margin-top: 20px;
+    }
+
+    @media (max-width: 400px) {
+      margin-top: 15px;
     }
 
     @media (max-width: 320px) {
