@@ -1,8 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="transition">
+    <h3><a href="index.html">Главная</a></h3>
+    <h2 class="title-two">МЕТОДИЧЕСКИЕ РАЗРАБОТКИ</h2>
+</div>
+<header class="header">
+  <input type="checkbox" id="burger-toggle" class="burger-toggle">
+  <label for="burger-toggle" class="burger-btn">
+    <span class="burger-line"></span>
+    <span class="burger-line"></span>
+    <span class="burger-line"></span>
+  </label>
+
+  <nav class="nav">
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="#" class="menu-link">МЕТОДИЧЕСКОЕ ПОРТФОЛИО</a>
+        <ul class="submenu">
+          <li><a href="norm-docum.html">Нормативно-правовая документация</a></li>
+          <li><a href="literature.html">Методическая литература</a></li>
+          <li><a href="documentation.html">Материалы основной деятельности</a></li>
+          <li><a href="developments.html">Методические разработки</a></li>
+        </ul>
+      </li>
+
+      <li class="menu-item">
+        <a href="#" class="menu-link">ДЛЯ КОЛЛЕГ И РОДИТЕЛЕЙ</a>
+        <ul class="submenu">
+          <li><a href="parents.html">Для родителей</a></li>
+          <li><a href="teachers.html">Для классных руководителей</a></li>
+          <li><a href="teachers.html"></a></li>
+        </ul>
+      </li>
+
+      <li class="menu-item">
+        <a href="students.html" class="menu-link">ДЛЯ ОБУЧАЮЩИХСЯ</a>
+      </li>
+
+      <li class="menu-item">
+        <a href="achievements.html" class="menu-link">ДОСТИЖЕНИЯ</a>
+      </li>
+
+      <li class="menu-item">
+        <a href="connection.html" class="menu-link">ОБРАТНАЯ СВЯЗЬ</a>
+      </li>
+
+      <li class="menu-item">
+        <a href="blog.html" class="menu-link">БЛОГ</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Комментарии к мероприятию</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="comments.scss">
@@ -15,26 +77,12 @@
     <form id="commentForm" class="comment-form">
         <div class="form-group">
             <label for="userName" class="form-label">Ваше имя:</label>
-            <input
-                    type="text"
-                    id="userName"
-                    name="name"
-                    class="form-input"
-                    placeholder="Как вас зовут?"
-                    required
-            >
+            <input type="text" id="userName" name="name" class="form-input" placeholder="Как вас зовут?" required>
         </div>
 
         <div class="form-group">
             <label for="userComment" class="form-label">Ваш комментарий:</label>
-            <textarea
-                    id="userComment"
-                    name="comment"
-                    class="form-textarea"
-                    placeholder="Поделитесь впечатлениями о сайте..."
-                    maxlength="500"
-                    required
-            ></textarea>
+            <textarea id="userComment" name="comment" class="form-textarea" placeholder="Поделитесь впечатлениями о сайте..." maxlength="500" required></textarea>
             <div id="charCounter" class="char-count">0/500</div>
         </div>
 
@@ -46,7 +94,7 @@
     <section class="comments-section">
         <h3 class="comments-subtitle">💭 Последние комментарии</h3>
         <div class="comments-list" id="commentsContainer">
-            <!-- Комментарии будут добавляться здесь -->
+            
             <div class="no-comments">Пока нет комментариев. Оставьте первый!</div>
         </div>
     </section>
@@ -186,3 +234,8 @@
         }
     });
 </script>
+<footer>
+  <p>©2025 Dolgova</p>
+</footer>
+</body>
+</html>
