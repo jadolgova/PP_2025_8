@@ -1,0 +1,225 @@
+.container {
+  .comments-title {
+    color: #363348;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(54, 51, 72, 0.1);
+    position: relative;
+
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100px;
+      height: 2px;
+      background: #363348;
+    }
+  }
+}
+
+.comment-form {
+  background: #f8f9fb;
+  border: 2px solid #363348;
+  padding: 25px;
+  margin-bottom: 40px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 5px 20px rgba(54, 51, 72, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+
+    .form-label {
+      display: block;
+      margin-bottom: 8px;
+      color: #363348;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+      width: 98%;
+      padding: 14px;
+      border: 1px solid white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      transition: border 0.3s ease, width 0.3s ease;
+
+      @media (max-width: 1200px) {
+        width: 96%;
+      }
+
+      @media (max-width: 768px) {
+        width: 94%;
+      }
+
+      @media (max-width: 480px) {
+        width: 92%;
+        padding: 12px;
+      }
+
+      &:focus {
+        outline: none;
+        border-color: #363348;
+        box-shadow: 0 0 0 2px rgba(54, 51, 72, 0.1);
+        width: 99%;
+
+        @media (max-width: 1200px) {
+          width: 97%;
+        }
+
+        @media (max-width: 768px) {
+          width: 96%;
+        }
+
+        @media (max-width: 480px) {
+          width: 95%;
+        }
+      }
+    }
+
+    .form-textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .char-count {
+      text-align: right;
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+
+      &.warning {
+        color: #ff9800;
+      }
+
+      &.error {
+        color: #f44336;
+      }
+    }
+  }
+
+  .submit-btn {
+    background: #363348;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(54, 51, 72, 0.3);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+
+    .btn-text {
+      display: inline-block;
+    }
+  }
+}
+
+.comments-section {
+  .comments-subtitle {
+    color: #363348;
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+
+  .comments-list {
+    .no-comments {
+      text-align: center;
+      padding: 40px 20px;
+      color: #999;
+      font-style: italic;
+      background: #f8f9fb;
+      border: 2px dashed #e5e5e5;
+    }
+
+    .comment {
+      background: white;
+      border: 1px solid #eee;
+      padding: 25px;
+      margin-bottom: 20px;
+      position: relative;
+      transition: transform 0.3s ease;
+
+      @media (max-width: 768px) {
+        padding: 20px;
+      }
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        background: #363348;
+      }
+
+      .comment-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        @media (max-width: 480px) {
+          flex-direction: column;
+          align-items: flex-start;
+
+          .comment-date {
+            margin-top: 5px;
+          }
+        }
+
+        .comment-author {
+          font-weight: 700;
+          color: #363348;
+          font-size: 17px;
+        }
+
+        .comment-date {
+          color: #666;
+          font-size: 14px;
+          background: #f6f8fa;
+          padding: 4px 12px;
+          border-radius: 20px;
+        }
+      }
+
+      .comment-text {
+        color: #555;
+        line-height: 1.6;
+        font-size: 15px;
+      }
+    }
+  }
+}

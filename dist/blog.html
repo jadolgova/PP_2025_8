@@ -319,6 +319,179 @@
 </div>
     </div>
 </div>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Комментарии к мероприятию</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="comments.scss">
+</head>
+<body>
+<div class="container">
+    <h2 class="comments-title">💬 Комментарии к мероприятию</h2>
+
+    <form id="commentForm" class="comment-form">
+        <div class="form-group">
+            <label for="userName" class="form-label">Ваше имя:</label>
+            <input type="text" id="userName" name="name" class="form-input" placeholder="Как вас зовут?" required>
+        </div>
+
+        <div class="form-group">
+            <label for="userComment" class="form-label">Ваш комментарий:</label>
+            <textarea id="userComment" name="comment" class="form-textarea" placeholder="Поделитесь впечатлениями о мероприятии..." maxlength="500" required></textarea>
+            <div id="charCounter" class="char-count">0/500</div>
+        </div>
+
+        <button type="submit" class="submit-btn">
+            <span class="btn-text">📨 Отправить комментарий</span>
+        </button>
+    </form>
+
+    <section class="comments-section">
+        <h3 class="comments-subtitle">💭 Последние комментарии</h3>
+        <div class="comments-list" id="commentsContainer">
+            
+            <div class="no-comments">Пока нет комментариев. Оставьте первый!</div>
+        </div>
+    </section>
+</div>
+
+<script src="comments.js"></script>
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Элементы DOM
+        const form = document.getElementById('commentForm');
+        const commentInput = document.getElementById('userComment');
+        const charCounter = document.getElementById('charCounter');
+        const commentsContainer = document.getElementById('commentsContainer');
+
+        // Инициализация
+        loadComments();
+        updateCharCounter();
+
+        // События
+        commentInput.addEventListener('input', updateCharCounter);
+        form.addEventListener('submit', handleSubmit);
+
+        // Функции
+        function updateCharCounter() {
+            const length = commentInput.value.length;
+            charCounter.textContent = `${length}/500`;
+            charCounter.className = `char-count${length > 450 ? ' warning' : length >= 500 ? ' error' : ''}`;
+        }
+
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            const formData = new FormData(form);
+            const name = formData.get('name').trim();
+            const comment = formData.get('comment').trim();
+
+            if (!validateForm(name, comment)) return;
+
+            const newComment = createComment(name, comment);
+
+            saveToStorage(newComment);
+            displayComment(newComment);
+            resetForm();
+            scrollToComment();
+        }
+
+        function validateForm(name, comment) {
+            if (!comment) {
+                alert('Пожалуйста, напишите комментарий');
+                commentInput.focus();
+                return false;
+            }
+            return true;
+        }
+
+        function createComment(name, text) {
+            return {
+                id: Date.now(),
+                name: name || 'Аноним',
+                text: text,
+                date: formatDate(new Date())
+            };
+        }
+
+        function formatDate(date) {
+            return date.toLocaleString('ru-RU', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        function saveToStorage(comment) {
+            const comments = getCommentsFromStorage();
+            comments.unshift(comment);
+            localStorage.setItem('eventComments', JSON.stringify(comments));
+        }
+
+        function getCommentsFromStorage() {
+            return JSON.parse(localStorage.getItem('eventComments') || '[]');
+        }
+
+        function loadComments() {
+            const comments = getCommentsFromStorage();
+
+            if (comments.length === 0) return;
+
+            commentsContainer.innerHTML = '';
+            comments.forEach(displayComment);
+        }
+
+        function displayComment(comment) {
+            // Удаляем сообщение "нет комментариев" при первом комментарии
+            const noComments = commentsContainer.querySelector('.no-comments');
+            if (noComments) noComments.remove();
+
+            const commentElement = createCommentElement(comment);
+            commentsContainer.prepend(commentElement);
+        }
+
+        function createCommentElement(comment) {
+            const div = document.createElement('div');
+            div.className = 'comment';
+            div.innerHTML = `
+            <div class="comment-header">
+                <span class="comment-author">${escapeHtml(comment.name)}</span>
+                <span class="comment-date">${comment.date}</span>
+            </div>
+            <div class="comment-text">${escapeHtml(comment.text)}</div>
+        `;
+            return div;
+        }
+
+        function resetForm() {
+            form.reset();
+            updateCharCounter();
+        }
+
+        function scrollToComment() {
+            const firstComment = document.querySelector('.comment');
+            if (firstComment) {
+                firstComment.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'nearest'
+                });
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    });
+</script>
 <footer>
   <p>©2025 Dolgova</p>
 </footer>
