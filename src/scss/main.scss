@@ -81,6 +81,15 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 20px;
+  font-family:'Montserrat', sans-serif;
+  color: #363348;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   h1 {
     font-size: 30px;
@@ -88,6 +97,10 @@ h2 {
 
   h2 {
     font-size: 26px;
+  }
+
+  h3{
+    font-size: 18px;
   }
 }
 
@@ -98,6 +111,10 @@ h2 {
 
   h2 {
     font-size: 24px;
+  }
+
+  h3{
+    font-size: 17px;
   }
 }
 
@@ -110,6 +127,10 @@ h2 {
     font-size: 20px;
     text-align: center;
   }
+
+  h3{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -121,6 +142,10 @@ h2 {
     font-size: 18px;
     text-align: center;
   }
+
+  h3{
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -131,6 +156,10 @@ h2 {
   h2 {
     font-size: 16px;
     text-align: center;
+  }
+
+  h3{
+    font-size: 14px;
   }
 }
 body {
@@ -676,7 +705,7 @@ body {
   .stud-inf{
     text-align: center;
     color: #363348;
-    font-size: 24px;
+    font-size: 22px;
     margin: 20px 0 0 0;
     @media (max-width: 1200px) {
       font-size: 22px;
