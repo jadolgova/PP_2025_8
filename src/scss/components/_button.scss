@@ -2,7 +2,7 @@
   width: 420px;
   height: 70px;
   font-size: 24px;
-  border: #363348 1px solid ;
+  border: #363348 1px solid;
   background: #363348;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -14,8 +14,16 @@
   color: #fff;
   margin-top: 50px;
 
+  /* Анимация при наведении */
+  &:hover {
+    background: rgb(63, 60, 78); /* чуть светлее/темнее */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(54, 51, 72, 0.3);
+  }
+
   &:active {
     transform: translateY(1px);
+    box-shadow: 0 2px 6px rgba(54, 51, 72, 0.2);
   }
 
   @media (max-width: 768px) {
